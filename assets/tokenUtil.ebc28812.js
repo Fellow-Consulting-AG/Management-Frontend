@@ -1,0 +1,1 @@
+import{P as n}from"./helperMixin.0581fc9a.js";var i={methods:{setTokenInLocalStorage(e){const t=new Date,o=+e.expires_in;t.setSeconds(t.getSeconds()+o-600),e.expire_time=t,n.set("management_token",e.token),n.remove("login_attempts")}}};export{i as t};
