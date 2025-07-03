@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "echo 'No tests implemented yet - see src/__tests__/README.md for test structure' && exit 0"
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.2",
