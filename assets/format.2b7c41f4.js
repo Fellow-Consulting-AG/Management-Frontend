@@ -1,0 +1,1 @@
+function n(r){const t=(r||"").trim();return t?t.split(/\s+/).map(i=>i[0]).slice(0,2).join("").toUpperCase():"\u2014"}function e(r){return Array.isArray(r)?r:r&&typeof r=="object"?Object.values(r):[]}export{n as i,e as t};
